@@ -21,7 +21,7 @@ def setup():
     profile = FOLDER + "/" + PROFILE_NAME
     fp = webdriver.FirefoxProfile(profile)
     options = Options()
-    options.headless = True
+    options.headless = False
     driver = webdriver.Firefox(firefox_profile=fp, options=options)
     driver.get("https://www.maps.ie/coordinates.html")
     findbtn = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "find-loc")))
@@ -102,4 +102,4 @@ while True:
     light_intensity += 5
     latitude, longitude = get_latlng(latitude, longitude)
     client.publish('v1/devices/me/telemetry', json.dumps(collect_data), 1)
-    time.sleep(5)
+    time.sleep(10)

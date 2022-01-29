@@ -1680,3 +1680,56 @@ JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642944074136	geckodriver	INFO	Listening on 127.0.0.1:61297
+1642944083188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61298" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilep8jFJw"
+*** You are running in headless mode.
+1642944087695	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://localhost:61298/devtools/browser/3d0d61f2-6d86-40ec-b339-dc8456cf797d
+1642944091268	Marionette	INFO	Listening on port 61303
+1642944091608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642944097060	FirefoxAccounts	ERROR	Rejected FxA webchannel message from remoteType = web
+JavaScript error: resource://gre/modules/BackgroundPageThumbs.jsm, line 719: TypeError: captureCallback is not a function
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1057: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/R1B9DkRZwcDIRZ3R9sqVqoa_rY5Qa04vEjSiPeGSXMQ.js line 1 > eval line 6463 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.maps.ie/coordinates/js/map.js, line 13: TypeError: response.responseJSON is undefined
+JavaScript error: https://www.maps.ie/coordinates/js/map.js, line 13: TypeError: response.responseJSON is undefined
+JavaScript error: https://www.maps.ie/coordinates/js/map.js, line 13: TypeError: response.responseJSON is undefined
+1642950625148	geckodriver	INFO	Listening on 127.0.0.1:61927
+1642950631913	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61928" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileggasVb"
+*** You are running in headless mode.
+1642950633885	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://localhost:61928/devtools/browser/b3cf3c6c-8588-4bad-8011-4cedf729c931
+1642950640886	Marionette	INFO	Listening on port 61933
+1642950641012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642950646629	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/R1B9DkRZwcDIRZ3R9sqVqoa_rY5Qa04vEjSiPeGSXMQ.js line 1 > eval line 5773 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/R1B9DkRZwcDIRZ3R9sqVqoa_rY5Qa04vEjSiPeGSXMQ.js line 1 > eval line 715 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.maps.ie/coordinates/js/map.js, line 13: TypeError: response.responseJSON is undefined
+JavaScript error: https://www.maps.ie/coordinates/js/map.js, line 13: TypeError: response.responseJSON is undefined
+JavaScript error: https://www.maps.ie/coordinates/js/map.js, line 13: TypeError: response.responseJSON is undefined
+1642950835219	geckodriver	INFO	Listening on 127.0.0.1:62106
+1642950842146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62107" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofileVcnWQE"
+1642950843276	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:62107/devtools/browser/b723c3ca-6e3c-4272-85d3-8c4f654b1978
+1642950847544	Marionette	INFO	Listening on port 62112
+1642950848010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642950854269	FirefoxAccounts	ERROR	Rejected FxA webchannel message from remoteType = web
+JavaScript warning: https://pagead2.googlesyndication.com/bg/R1B9DkRZwcDIRZ3R9sqVqoa_rY5Qa04vEjSiPeGSXMQ.js line 1 > eval line 6987 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/BackgroundPageThumbs.jsm, line 719: TypeError: captureCallback is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/R1B9DkRZwcDIRZ3R9sqVqoa_rY5Qa04vEjSiPeGSXMQ.js line 1 > eval line 105 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.maps.ie/coordinates/js/map.js, line 13: TypeError: response.responseJSON is undefined
+JavaScript error: https://www.maps.ie/coordinates/js/map.js, line 13: TypeError: response.responseJSON is undefined
+JavaScript error: https://www.maps.ie/coordinates/js/map.js, line 13: TypeError: response.responseJSON is undefined
+JavaScript error: https://www.maps.ie/coordinates/js/map.js, line 13: TypeError: response.responseJSON is undefined
+1642950976646	Marionette	INFO	Stopped listening on port 62112
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 4180, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
