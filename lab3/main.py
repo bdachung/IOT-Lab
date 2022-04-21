@@ -148,10 +148,8 @@ def readSerial():
                 mess = mess[end+1:]
 
 
-client.publish("v1/devices/me/telemetry",  json.dumps({'temperature' : 31,'light': 50}), 1)
 while True:
-    client.publish("v1/devices/me/telemetry",  json.dumps({'light': random.randint(0,120)}), 1)
     if bbc_port != "None":
         readSerial()
 
-    time.sleep(5)
+    time.sleep(1)
